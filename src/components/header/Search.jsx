@@ -13,9 +13,10 @@ const Search = ({ CartItem }) => {
       <section className='search'>
         <div className='container c_flex'>
           <div className='logo width '>
-            <h1>E-Commerce</h1>
+            <Link to="/">
+              <h1>E-Commerce</h1>
+            </Link>
           </div>
-
           <div className='search-box f_flex'>
             <i className='fa fa-search'></i>
             <input type='text' placeholder='Search and hit enter...' />

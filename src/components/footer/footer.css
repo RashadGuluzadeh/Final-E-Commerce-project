@@ -1,6 +1,6 @@
 footer {
   background-color: #0f3460;
-  padding: 100px 0;
+  padding: 60px 0;
   color: #fff;
 }
 footer h1 {
@@ -33,4 +33,10 @@ footer h2 {
 footer li {
   margin-bottom: 10px;
   opacity: 0.5;
+}
+footer .box:first-child{
+  width: 25%;
+}
+footer .box:last-child{
+  width: 20%;
 }

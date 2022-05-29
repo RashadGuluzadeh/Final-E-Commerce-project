@@ -46,7 +46,10 @@ function App() {
       setCartItem([...CartItem, { ...product, qty: 1 }])
     }
   }
+  const removeFromCart = (product) => {
+    CartItem.filter((item) => item.id !== product.id)
 
+  } 
   // Stpe: 6
   const decreaseQty = (product) => {
     // if hamro product alredy cart xa bhane  find garna help garxa
@@ -76,7 +79,7 @@ function App() {
             <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
           </Route>
           <Route path='/cart' exact>
-            <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
+            <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} removeFromCart={removeFromCart}/>
           </Route>
         </Switch>
         <Footer />

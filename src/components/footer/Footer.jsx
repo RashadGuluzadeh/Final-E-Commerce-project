@@ -1,5 +1,5 @@
 import React from "react"
-import "./style.css"
+import "./footer.css"
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <footer>
         <div className='container grid2'>
           <div className='box'>
-            <h1>Bonik</h1>
+            <h1>E-Commerce</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
             <div className='icon d_flex'>
               <div className='img d_flex'>
